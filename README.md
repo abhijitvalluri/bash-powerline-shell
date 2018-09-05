@@ -28,7 +28,7 @@ a little bit of effort and knowledge of shell scripts, you can make this look ho
 * Return code from previous bash command: `⚑`
 * Git branch: ``
 * Number of modified files in git repo: `✚`
-* Number of staged files in git repo: `✔`
+* Number of staged files in git repo: ``
 * Number of conflicted files in git repo: `✘`
 
 In addition, the following symbols are used to separate different segments: , 
@@ -67,6 +67,7 @@ with the ANSI color codes, it should be fairly straightforward to enhance the sc
 
 Some resources that can help you with tweaking the script:
 
+* [Bash tips: Colors and formatting (ANSI/VT100 Control sequences)](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
 * [ANSI color codes](https://en.wikipedia.org/wiki/ANSI_escape_code#Colors): Color codes for the xterm/uxterm.
 * [UTF-8 Unicode test documents](https://github.com/bits/UTF-8-Unicode-Test-Documents.git): Use the test documents in this repo to see what symbols are rendered using your chosen font.
 * [PS1 cheat sheet](https://ss64.com/bash/syntax-prompt.html): Prompt variable characters for customizing the output of the PS1 prompt.
